@@ -6,7 +6,7 @@
 #PBS -o Amiga_out.txt
 #PBS -e Amiga_err.txt
 #PBS -V
-#PBS -M cchoban@ucsd.edu
+#PBS -M user@ucsd.edu
 #PBS -d .
 set -e
 
