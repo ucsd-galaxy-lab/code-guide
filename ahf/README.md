@@ -20,3 +20,8 @@ make run
 ```
 
 The results could be checked in the `run` directory.
+
+To submit a job script to run AHF for multiple snapshots use:
+'''console
+make submit
+'''
