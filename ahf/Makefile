@@ -4,4 +4,8 @@ compile:
 
 .PHONY: run
 run:
-	cd run && make
+	cd run && make run
+
+.PHONY: submit
+submit:
+	cd run && make submit
