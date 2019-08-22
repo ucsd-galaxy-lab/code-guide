@@ -63,7 +63,7 @@ while(count <= Nsnap):
 	inputlist.append(foutname)
 
 count = startno
-while(count < Nsnap):
+while(count <= Nsnap):
         strno = str(count)
         if count<10:
                 strno='00'+str(count)
@@ -72,4 +72,6 @@ while(count < Nsnap):
 	print 'doing ',strno
 	mycommand = amiga_dir+'AHF AHF.input'+strno
 	os.system(mycommand)
+	# Clean up files after we are done with them
+	mycommand = 'rm AHF.input'+strno
 	count = count +1

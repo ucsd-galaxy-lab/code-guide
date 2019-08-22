@@ -1,6 +1,6 @@
 .PHONY: run
 run: data
-	./AHF AHF.input
+	source ../../module-reset.sh && ./AHF AHF.input
 
 .PHONY: data
 data:

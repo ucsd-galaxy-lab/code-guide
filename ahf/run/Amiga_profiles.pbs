@@ -18,11 +18,11 @@ source ../module-reset.sh
 pwd
 
 # Directory of snapshots
-export SNAP_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Species/output/"
+export SNAP_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Elemental/output/"
 # Directory to output AHF data
-export OUTPUT_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Species/halos/"
+export OUTPUT_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Elemental/halos/"
 # Directory of the AMIGA exe file
-export AMIGA_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Species/halos/ahf/run/"
+export AMIGA_DIR="/oasis/tscc/scratch/cchoban/FIRE_2_0_or_h553_criden1000_noaddm_sggs_dust/Elemental/halos/ahf/run/"
 # Start and end of snapshot numbers to anaylze
 export STARTNUM='590'
 export ENDNUM='600'
