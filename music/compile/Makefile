@@ -1,4 +1,4 @@
-HPC := tscc
+HPC ?= tscc
 
 TEMP_DIR = temp
 MUSIC_DIR = $(TEMP_DIR)/music
