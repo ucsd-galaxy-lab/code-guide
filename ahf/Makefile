@@ -1,6 +1,6 @@
 .PHONY: compile
 compile:
-	source ../module-reset.sh && cd compile && make
+	source module-reset.sh && cd compile && make
 
 .PHONY: run
 run:
